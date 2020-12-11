@@ -23,13 +23,36 @@ public class Medicament_BDD {
     
 
     
-    public void ajouter( String nom, String posologie, String code_cure) {
+    public void add( String nom, String posologie, String code_cure) {
         try{
         String requet="insert into medicament(nom,posologie,code_cure) values('"+nom+"','"+posologie+"','"+code_cure+"')";
             cnx=Connexion.connecterDB();
             st=cnx.createStatement();
             st.executeUpdate(requet);
             System.out.println("medicament bien ajoute");
+        
+        }catch(SQLException e){
+            e.printStackTrace();
+        }
+    }
+    public void update( int id,String nom, String posologie, String code_cure) {
+        try{
+        String requet="update medicament set nom='"+nom+"',posologie='"+posologie+"',code_cure='"+code_cure+"' where id_m="+id;
+            cnx=Connexion.connecterDB();
+            st=cnx.createStatement();
+            st.executeUpdate(requet);
+            System.out.println("medicament bien modifier");
+        }catch(SQLException e){
+            e.printStackTrace();
+        }
+    }
+    public void delete( int id) {
+        try{
+        String requet="delete from medicament where id_m="+id;
+            cnx=Connexion.connecterDB();
+            st=cnx.createStatement();
+            st.executeUpdate(requet);
+            System.out.println("medicament bien supprimer");
         
         }catch(SQLException e){
             e.printStackTrace();

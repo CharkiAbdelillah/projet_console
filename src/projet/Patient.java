@@ -5,15 +5,15 @@ public class Patient {
     
    
     
-    public int id;
-    public String nom;
-    public String prenom;
-    public String adresse;
-    public int age;
-    public String tel;
-    public String GS;
-    public int poids;
-    public int taill;
+    private int id;
+    private String nom;
+    private String prenom;
+    private String adresse;
+    private int age;
+    private String tel;
+    private String GS;
+    private double poids;
+    private double taill;
 
     public Patient(int id, String nom, String prenom, String adresse, int age, String tel, String GS, int poids, int taill) {
         this.id = id;
@@ -86,7 +86,7 @@ public class Patient {
         this.GS = GS;
     }
 
-    public int getPoids() {
+    public double getPoids() {
         return poids;
     }
 
@@ -94,7 +94,7 @@ public class Patient {
         this.poids = poids;
     }
 
-    public int getTaill() {
+    public double getTaill() {
         return taill;
     }
 

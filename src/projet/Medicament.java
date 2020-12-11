@@ -5,10 +5,10 @@ package projet;
 public class Medicament {
     
     
-    public int id;
-    public String nom;
-    public String posologie;
-    public String code_cure;
+    private int id;
+    private String nom;
+    private String posologie;
+    private String code_cure;
 
     public Medicament(int id, String nom, String posologie, String code_cure) {
         this.id = id;
