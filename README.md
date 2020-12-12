@@ -4,6 +4,7 @@
 ![alt text](https://github.com/CharkiAbdelillah/projet_console/blob/master/images/interface.PNG)
 
 ### 1-gestion de patient :
+![alt text](https://github.com/CharkiAbdelillah/projet_console/blob/master/images/2.PNG)
   ##### 1.1-Ajouter :
   ![alt text](https://github.com/CharkiAbdelillah/projet_console/blob/master/images/3.PNG)
   ##### 1.2-Voir les patients :
@@ -22,7 +23,6 @@
   ##### 2.4-Recherche par une id n'existe pas :
   ![alt text](https://github.com/CharkiAbdelillah/projet_console/blob/master/images/9_med%20rech%20id%20net%20pas.PNG)
   ### 3-Liaison :
-![alt text](https://github.com/CharkiAbdelillah/projet_console/blob/master/images/2.PNG)
   ##### 3.1-Ajouter :
   ![alt text](https://github.com/CharkiAbdelillah/projet_console/blob/master/images/10_pati_med%20ajout%20id%20existe.PNG)
   ##### 2.2-Ajouter par une id n'existe pas :
