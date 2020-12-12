@@ -24,7 +24,7 @@ public class MedPatient_CTRL {
         id_p=sc.nextInt();
         System.out.println("Saisir le nouveaux id de Medicament");
         id_m=sc.nextInt();
-        m1.add(id_p,id_m);
+        m1.update(id_p,id_m);
     }
     public void supprimer(){
        System.out.println("Saisir le id de patient");

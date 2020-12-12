@@ -14,6 +14,9 @@ public class Main {
         MedPatient_CTRL mp=new MedPatient_CTRL();
         Medicament_CNTRL m=new Medicament_CNTRL();
         boolean exit=false;
+        System.out.println("♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠");
+        System.out.println("☻ Application console pour la gestion d'un cabinet médical ☻");
+        System.out.println("♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠");
         System.out.println("");
         while(!exit){
         System.out.println("Gestion de Patient: Tapez 1");
@@ -68,7 +71,7 @@ public class Main {
                 System.out.println(" 0 - Retour ");
                 int c=sc.nextInt();
                 switch(c){
-                    case 1: m.ajouter(); break;
+                    case 1: mp.ajouter(); break;
                         case 2: mp.afficher(); break;
                     case 3: mp.supprimer(); break;
                     case 4: mp.modifier(); break;
