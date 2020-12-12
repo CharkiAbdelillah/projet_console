@@ -14,6 +14,7 @@ public class Main {
         MedPatient_CTRL mp=new MedPatient_CTRL();
         Medicament_CNTRL m=new Medicament_CNTRL();
         boolean exit=false;
+        System.out.println("");
         while(!exit){
         System.out.println("Gestion de Patient: Tapez 1");
         System.out.println("Gestion de Medicament: Tapez 2");

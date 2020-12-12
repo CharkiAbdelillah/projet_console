@@ -10,7 +10,7 @@ import java.util.Scanner;
 ;
 
 
-public class Patient_CNTRL{
+public class Patient_CNTRL extends Operation{
     
     Patient_BDD m1=new Patient_BDD();
     
@@ -20,7 +20,6 @@ public class Patient_CNTRL{
     private String prenom;
     private String adresse;
     private int age;
-    private int id;
     private String tel;
     private String GS;
     private double poids;
